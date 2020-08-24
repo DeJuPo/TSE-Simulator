@@ -1,0 +1,65 @@
+TSE-Simulator-TR-03153
+Copyright 2019-2020 Bundesamt für Sicherheit in der Informationstechnik
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/)
+and 
+The Legion of the Bouncy Castle Inc. (https://www.bouncycastle.org). 
+
+The files in the package main.java.de.bsi.seapi were published by the 
+Federal Office for Information Security (Bundesamt für Sicherheit 
+in der Informationstechnik) (https://www.bsi.bund.de). 
+
+
+Functions from BouncyCastle bcprov-jdk15on-161.jar are used in:
+	"Tag" and "TLVObject" in main.java.de.bsi.tsesimulator.tlv
+	"ECDSA", "ECSDSA", and "SignatureAlgorithm" in main.java.de.bsi.tsesimulator.tse.crypto
+	"User" in main.java.de.bsi.tsesimulator.tse.usermanagement
+	"CryptoCore" and "TSEController" in main.java.de.bsi.tsesimulator.tse
+	 
+
+Functions from BouncyCastle bcpkix-jdk15on-161.jar are used in:
+	"ECDSA" and "ECSDSA" in main.java.de.bsi.tsesimulator.tse.crypto
+	"CryptoCore" in main.java.de.bsi.tsesimulator.tse
+	
+
+Functions from Apache Commons Compress commons-compress-1.18.jar are used in:
+	"Storage" in main.java.de.bsi.tsesimulator.tse.storage
+	"TARUtils" in main.java.de.bsi.tsesimulator.utils
+	
+
+Functions from Apache Commons IO commons-io-2.6.jar are used in:
+	"Storage" in main.java.de.bsi.tsesimulator.tse.storage
+
+
+
+Please consult the LICENSE of this simulator for further information!
+LICENSES of the BouncyCastle LICENSE and the Apache License (Version 2.0) can be found in that LICENSE document!
+
+
+
+
+Copy of the notice from Apache Commons Compress:
+
+Apache Commons Compress
+Copyright 2002-2018 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (https://www.apache.org/).
+
+The files in the package org.apache.commons.compress.archivers.sevenz
+were derived from the LZMA SDK, version 9.20 (C/ and CPP/7zip/),
+which has been placed in the public domain:
+
+"LZMA SDK is placed in the public domain." (http://www.7-zip.org/sdk.html)
+
+
+
+
+Copy of the notice from Apache Commons IO:
+
+Apache Commons IO
+Copyright 2002-2017 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
