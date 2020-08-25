@@ -37,18 +37,13 @@ Since the simulator has no own hardware to use, it must rely on some directories
 
 File name | purpose
 ------------ | -------------
-standard-config **or** testFiles/configX | Root directory for the configuration and storage tree of the simulator. Acts as a point of reference for the location of all other files and directories.
-The path to this directory has to be set prior to simulator usage. 
+standard-config **or** testFiles/configX | Root directory for the configuration and storage tree of the simulator. Acts as a point of reference for the location of all other files and directories. The path to this directory has to be set prior to simulator usage. 
 
-keys | The directory storing the private keys of the simulator and the certificates corresponding to those keys. 
-Configured through config.properties
+keys | The directory storing the private keys of the simulator and the certificates corresponding to those keys. Configured through config.properties
 
-normalStoring | The directory acting as the normal storage of the TSE simulator. This is where log messages are stored, the TAR file created by exportData, the TAR file created by exportCertificates, the info.csv file and the record of already exported data is kept.
-This directory can be cleaned through the usage of a deleteStoredData function call.
-Configured through config.properties
+normalStoring | The directory acting as the normal storage of the TSE simulator. This is where log messages are stored, the TAR file created by exportData, the TAR file created by exportCertificates, the info.csv file and the record of already exported data is kept. This directory can be cleaned through the usage of a deleteStoredData function call. Configured through config.properties
 
-persistentStoring | The directory acting as persistentStorage of the TSE simulator. This is where the files storing user data and, if created, the important simulator data is persisted after a gracefulShutdown function call.
-Configured through config.properties
+persistentStoring | The directory acting as persistentStorage of the TSE simulator. This is where the files storing user data and, if created, the important simulator data is persisted after a gracefulShutdown function call. Configured through config.properties
 
 config.properties | The configuration file of the simulator. Several different values can be modified and affect the behaviour of the simulator. 
 
@@ -75,16 +70,16 @@ Before creating a new TSEController, you have to tell the program where its reso
 The simulator comes with 2 default users, one with the role of admin and the other with the role of timeAdmin. For some functions it is necessary according to BSI TR-03151 for an authenticated authorized user to be logged in. This section lists the credentials of the 2 provided default users:
 
 ### admin
-String UserId = root
-String role = admin
-byte array PIN = {1,2,3,4,5,6} 
-byte array PUK = {1,1,2,3,5,8}
+* String UserId = root
+* String role = admin
+* byte array PIN = {1,2,3,4,5,6} 
+* byte array PUK = {1,1,2,3,5,8}
 
 ### timeAdmin
-String UserId = timekeeper
-String role = timeAdmin
-byte array PIN = {0, 9, 8, 7, 6, 5}
-byte array PUK = {5, 8, 13, 21, 34}
+* String UserId = timekeeper
+* String role = timeAdmin
+* byte array PIN = {0, 9, 8, 7, 6, 5}
+* byte array PUK = {5, 8, 13, 21, 34}
 
 
 ## registering clients
