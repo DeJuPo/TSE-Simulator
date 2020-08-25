@@ -38,15 +38,15 @@ Since the simulator has no own hardware to use, it must rely on some directories
 File name | purpose
 ------------ | -------------
 standard-config **or** testFiles/configX | Root directory for the configuration and storage tree of the simulator. Acts as a point of reference for the location of all other files and directories. The path to this directory has to be set prior to simulator usage. 
-
+------------ | -------------
 keys | The directory storing the private keys of the simulator and the certificates corresponding to those keys. Configured through config.properties
-
+------------ | -------------
 normalStoring | The directory acting as the normal storage of the TSE simulator. This is where log messages are stored, the TAR file created by exportData, the TAR file created by exportCertificates, the info.csv file and the record of already exported data is kept. This directory can be cleaned through the usage of a deleteStoredData function call. Configured through config.properties
-
+------------ | -------------
 persistentStoring | The directory acting as persistentStorage of the TSE simulator. This is where the files storing user data and, if created, the important simulator data is persisted after a gracefulShutdown function call. Configured through config.properties
-
+------------ | -------------
 config.properties | The configuration file of the simulator. Several different values can be modified and affect the behaviour of the simulator. 
-
+------------ | -------------
 userlist.properties | Stores the userIds of the users that are registered to use the TSE simulator for an easy answer to the question ‚Is a user managed by the TSE simulator?‘.
 
 
