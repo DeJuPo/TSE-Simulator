@@ -1,7 +1,7 @@
 # General Information
 Program simulating a Technical Security System (TSS, TSE in German) according to BSI TR-03153.
 Project conducted in cooperation with the Bundesamt für Sicherheit in der Informationstechnik (BSI).
-More information on TSE and the Technical Guidelines surrounding it can be found at https://www.bsi.bund.de/DE/Themen/DigitaleGesellschaft/Grundaufzeichnungen/grundaufzeichnungen_node.html  (website only available in German).
+More information on TSE and the Technical Guidelines surrounding it can be found at https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Schutz-vor-Manipulation-an-digitalen-Grundaufzeichnungen/schutz-vor-manipulation-an-digitalen-grundaufzeichnungen_node.html (website only available in German).
 
 # Set-up
 Please note: this is a temporary quick-start guide, a more in-depth user guide will be provided in the future!
